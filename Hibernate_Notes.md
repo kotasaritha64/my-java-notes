@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Difference between Hibernate, JPA, and Spring Data JPA](#Difference-between-Hibernate,JPA,and-Spring-Data-JPA)
-- [Project Setup](#project-setup)
+- [Whether Spring boot Data JPA uses hibernate internally for it's implementation?](#Ans)
 - [Project Structure](#project-structure)
 
 ## Difference between Hibernate, JPA, and Spring Data JPA
@@ -17,18 +17,6 @@ By understanding these distinctions, you can make informed decisions when select
 Whether you are a Java developer starting with ORM frameworks or someone looking to enhance their understanding of Hibernate, JPA, and Spring Data JPA, this article aims to provide valuable insights and comparisons to help you navigate the complexities of managing persistence in your Java applications.
 
 Let’s begin by examining each framework in detail and uncovering the unique characteristics that set them apart.
-
-By the way, if you are new to Spring Framework and want to learn Spring in depth and looking for resources then you can also checkout following online courses:
-
-Spring Master Class — Beginner to Expert
-Spring & Hibernate for Beginners
-Learn Spring: The Certification Class
-Master Microservices with Spring Boot and Spring Cloud
-All of these are top rated courses to learn Spring framework in depth but if you need free resources you can also checkout these free Spring framework courses:
-
-Top 10 Free courses to learn Spring Framework for Java developers
-Hello guys, I have been sharing a lot of resources like books and courses recently and when I published my list of Top…
-medium.com
 
 **1. Hibernate: **A Robust ORM Framework
 Along with Spring framework, Hibernate is probably the most popular Framework for Java developers. Hibernate is a powerful and widely-used ORM framework that provides an extensive set of features for mapping Java objects to relational databases.
@@ -102,13 +90,10 @@ Hibernate provides extra features beyond what is specified by JPA whil e JPA onl
 
 This list clearly summarizes the differences between Hibernate, JPA, and Spring Data JPA for each feature, but, if you like to see the difference in tabular format here is a nice table which highlights the key difference between Hibernate, JPA, and Spring Data JPA technology:
 
-Difference between Hibernate, JPA, and Spring Data JPA?
 
 
-## Project Setup
-Here are the steps to set up the project:
-- Step 1: [Install dependencies](#install-dependencies)
-- Step 2: [Configure settings](#configure-settings)
+## Ans
+JPA is an interface and Hibernate is the implementation.** By default, Spring uses Hibernate as the default JPA vendor**. We can see hibernate related dependency in dependency hierarchy under the pom.xml, this will resolve all dependencies of our project. i.e spring-boot-starter-data-jpa comes with hibernate as default.
 
 ## Project Structure
 The project has the following structure:
