@@ -30,7 +30,7 @@ Top 10 Free courses to learn Spring Framework for Java developers
 Hello guys, I have been sharing a lot of resources like books and courses recently and when I published my list of Top…
 medium.com
 
-1. Hibernate: A Robust ORM Framework
+**1. Hibernate: **A Robust ORM Framework
 Along with Spring framework, Hibernate is probably the most popular Framework for Java developers. Hibernate is a powerful and widely-used ORM framework that provides an extensive set of features for mapping Java objects to relational databases.
 
 It offers its own implementation of the JPA specification, making it a comprehensive solution for managing persistence in Java applications. Hibernate supports various databases through its dialects, allowing developers to work with different database systems seamlessly.
@@ -40,7 +40,7 @@ With Hibernate, Java developers can define their persistence mappings using XML 
 One of Hibernate’s key strengths is its support for caching mechanisms. It offers both first-level and second-level caching, which can significantly improve the performance of database operations by reducing the number of round trips to the database.
 
 
-2. JPA: The Java Persistence API
+**2. JPA:** The Java Persistence API
 JPA, on the other hand, is a specification that defines a set of standard APIs for ORM in Java. It aims to provide a consistent and vendor-agnostic approach to object-relational mapping. However, JPA itself does not provide an implementation; it requires an underlying implementation to be used.
 
 Developers can choose from various JPA implementations such as Hibernate, EclipseLink, or Apache OpenJPA, among others. These implementations adhere to the JPA specification and offer their own unique features and optimizations.
@@ -48,17 +48,16 @@ Developers can choose from various JPA implementations such as Hibernate, Eclips
 JPA’s query language, JPQL (Java Persistence Query Language), is similar to Hibernate’s HQL and allows developers to write database queries using entity-based object models. This abstraction simplifies the querying process and promotes portability across different JPA implementations.
 
 
-3. Spring Data JPA: Simplifying JPA Development
+**3. Spring Data JPA:** Simplifying JPA Development
 Spring Data JPA builds upon the JPA specification and provides a simplified and intuitive approach to working with the persistence layer in Spring applications. It offers a higher-level abstraction over JPA, reducing boilerplate code and providing convenient features such as repository abstractions and query support.
 
 With Spring Data JPA, Java developers can define repositories as interfaces, leveraging Spring’s powerful dependency injection capabilities to automatically generate the necessary CRUD (Create, Read, Update, Delete) operations. It also supports the creation of custom queries by defining method names according to a specific naming convention, eliminating the need for writing JPQL or SQL queries manually.
 
 Spring Data JPA seamlessly integrates with the Spring ecosystem, allowing developers to leverage other Spring features such as transaction management, dependency injection, and declarative caching. It also provides a cohesive and efficient solution for managing persistence in Spring applications while leveraging the standardized JPA APIs.
 
-Here is a nice diagram which shows how Spring Data JPA work compared to Raw JPA which uses EntityManager:
 
 
-When to use JPA, Hibernate, or Spring Data JPA?
+**When to use JPA, Hibernate, or Spring Data JPA?**
 When deciding between Hibernate, JPA, and Spring Data JPA, you need to consider various factors. Hibernate offers a comprehensive set of features, including its own query language and caching mechanisms.
 
 JPA provides a standardized approach with multiple implementation choices, offering portability across different ORM frameworks. Spring Data JPA, on the other hand, simplifies JPA development within the Spring ecosystem, providing repository abstractions and query support.
@@ -68,37 +67,37 @@ The choice of framework depends on the specific requirements of the project, the
 You can only choose the right technology for your project if you truly understand the differences well that’s why understanding differences between Hibernate, JPA, and Spring Data JPA is crucial for Java developers seeking effective solutions for managing persistence in their applications.
 
 
-What is difference between Hibernate, JPA, and Spring Data JPA?
+**What is difference between Hibernate, JPA, and Spring Data JPA?**
 Now that we have fair idea of what is Hibernate, JPA, and Spring Data JPA and their abilities, its time to see the real difference between them. Here’s the comparison of Hibernate, JPA, and Spring Data JPA in a feature-wise list format:
 
-1. Definition
+**1. Definition**
 Hibernate is Robust ORM framework providing object-relational mapping capabilities. While JPA is a Specification for ORM in Java, defining a set of standard APIs for persistence and Spring Data JPA provide simplified abstraction over JPA, providing additional features and repository abstractions.
 
-2. Implementation
+**2. Implementation**
 Hibernate provides its own implementation of the JPA specification while JPA requires an underlying implementation to be used, such as Hibernate, EclipseLink, or OpenJPA. and Spring Data JPA builds on top of JPA and requires a JPA-compliant implementation, such as Hibernate or EclipseLink.
 
-3. Persistence API
+**3. Persistence API**
 Again, JPA defines a set of standard APIs for ORM in Java while Hibernate provides its own API for persistence operations and Spring Data JPA builds on JPA APIs and adds additional functionality, such as repository abstractions and query support.
 
-4. Database Support
+**4. Database Support**
 In case of JPA database support depends on the JPA implementation used, which may have specific database support. Hibernate does supports various databases through its dialects while Spring Data JPA also depends on the JPA implementation used, offering compatibility with different databases.
 
-5. Transaction Management
+**5. Transaction Management**
 Hibernate comes with its own transaction management capabilities, while JPA and Spring Data JPA both depends on the JPA implementation used for transaction management.
 
-5. Query Language
+**5. Query Language**
 Hibernate offers Hibernate Query Language (HQL) for writing object-oriented queries. While JPA defines Java Persistence Query Language (JPQL) for database queries and Spring Data JPA uses JPQL as the query language, similar to JPA.
 
-6. Caching
+**6. Caching**
 Hibernate provides first-level and second-level caching mechanisms. While JPA again depends on the JPA implementation used, which may offer caching capabilities and Spring Data JPA depends on the JPA implementation used for caching support.
 
-7. Configuration
+**7. Configuration**
 Hibernate supports configuration using XML, annotations, or Java-based approaches. While JPA also supports configuration using XML, annotations, or Java-based approaches and Spring Data JPA supports configuration using XML, annotations, or Java-based approaches.
 
-8. Integration
+**8. Integration**
 Hibernate can be used independently or integrated with Spring. JPA works with any JPA-compliant implementation, including integration with Spring and Spring Data JPA is part of the Spring Data family, designed to integrate with Spring applications.
 
-9. Additional Features
+**9. Additional Features**
 Hibernate provides extra features beyond what is specified by JPA whil e JPA only provides a standardized set of APIs. Spring Data JPA on th eother hand alos provides additional repository abstraction and query support on top of JPA.
 
 This list clearly summarizes the differences between Hibernate, JPA, and Spring Data JPA for each feature, but, if you like to see the difference in tabular format here is a nice table which highlights the key difference between Hibernate, JPA, and Spring Data JPA technology:
