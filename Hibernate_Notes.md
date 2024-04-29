@@ -97,6 +97,10 @@ JPA is an interface and Hibernate is the implementation.** By default, Spring us
 
 Spring Data JPA is not a JPA provider. It is a library/framework that adds an extra layer of abstraction on the top of our JPA provider (like Hibernate).
 
+
+![image](https://github.com/kotasaritha64/my-java-notes/assets/51236086/b63e9db2-7765-458c-bdc9-dda85b66fc52)
+
+
 ## Project Structure
 The project has the following structure:
 - [src/](#src)
