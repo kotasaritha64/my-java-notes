@@ -95,6 +95,8 @@ This list clearly summarizes the differences between Hibernate, JPA, and Spring 
 ## Ans
 JPA is an interface and Hibernate is the implementation.** By default, Spring uses Hibernate as the default JPA vendor**. We can see hibernate related dependency in dependency hierarchy under the pom.xml, this will resolve all dependencies of our project. i.e spring-boot-starter-data-jpa comes with hibernate as default.
 
+Spring Data JPA is not a JPA provider. It is a library/framework that adds an extra layer of abstraction on the top of our JPA provider (like Hibernate).
+
 ## Project Structure
 The project has the following structure:
 - [src/](#src)
