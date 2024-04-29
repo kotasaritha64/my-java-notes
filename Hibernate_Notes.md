@@ -1,7 +1,7 @@
 # Project Notes
 
 ## Table of Contents
-- [Difference between Hibernate, JPA, and Spring Data JPA](#Difference between Hibernate, JPA, and Spring Data JPA)
+- [Difference between Hibernate, JPA, and Spring Data JPA](#Difference-between-Hibernate,JPA,and-Spring-Data-JPA)
 - [Project Setup](#project-setup)
 - [Project Structure](#project-structure)
 
